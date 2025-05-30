@@ -1,0 +1,39 @@
+# Maven build output
+target/
+
+# Maven Wrapper unnecessary files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Git version control files
+.git
+.gitignore
+
+# IDEs and editor settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+logs/
+
+# Docker Compose files (not needed inside image)
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if frontend project inside repo)
+node_modules/
+
+# Swap and temp files
+*.swp
+*.swo
+*.tmp
