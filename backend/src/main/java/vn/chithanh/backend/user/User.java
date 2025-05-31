@@ -2,6 +2,7 @@ package vn.chithanh.backend.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import vn.chithanh.backend.messagecontent.MessageContent;
@@ -17,6 +18,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class User {
     @Id
     @GeneratedValue(generator = "UUID", strategy = GenerationType.AUTO)
