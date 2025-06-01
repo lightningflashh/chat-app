@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  background-repeat: no-repeat;      /* <- không lặp */
+  background-attachment: fixed;      /* <- giữ cố định khi scroll */
+  background-size: cover;            /* <- phủ kín màn hình */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
